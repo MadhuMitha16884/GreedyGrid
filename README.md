@@ -1,16 +1,46 @@
-# React + Vite
+# 🎮 GreedyGrid – Web-Based Game Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GreedyGrid is a modular web-based game engine that supports multiple mini-games like 2048, Sudoku, Puzzle, and Word Search. It features a plugin-based architecture, dynamic game loading, and a real-time leaderboard system.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🧩 Multiple games powered by a single engine
+🔌 Plugin-based architecture for adding new games
+🧠 Adaptive game logic and hint system
+🏆 Leaderboard with score tracking
+⚡ Fast and responsive UI
 
-## React Compiler
+## 🏗️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+React (Vite)
+JavaScript (ES6+)
+CSS
+### Backend
+Node.js
+Express.js
+File System (JSON-based storage)
+### Deployment
+Vercel (Frontend)
+Render (Backend)
 
-## Expanding the ESLint configuration
+## 🔗 Live Links
+🌐 Live App: [https://your-vercel-link.vercel.app](https://greedygrid-git-main-mekala-madhu-mithas-projects.vercel.app/)
+🔧 Backend API: [https://greedygrid-backend.onrender.com/api/scores](https://greedygrid-backend.onrender.com/api/scores)
+📂 GitHub Repo: [https://github.com/MadhuMitha16884/GreedyGrid](https://github.com/MadhuMitha16884/GreedyGrid)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ How It Works
+Frontend sends API requests to backend
+Backend processes leaderboard data
+Scores are stored in a JSON file
+Data is fetched and displayed dynamically
+
+## ⚠️ Limitations
+Uses JSON instead of database (data may reset)
+Backend may take time to wake up (Render free tier)
+
+## 📌 Future Improvements
+Replace JSON with MongoDB
+Add authentication system
+Improve UI/UX and animations
+Add more game plugins
