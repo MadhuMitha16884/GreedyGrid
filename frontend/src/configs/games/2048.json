@@ -1,0 +1,9 @@
+{
+  "name": "2048",
+  "icon": "🧠",
+  "description": "Swipe to merge matching numeric tiles to reach the legendary 2048 tile.",
+  "difficulties": {
+    "easy": { "size": 4 },
+    "hard": { "size": 5 }
+  }
+}

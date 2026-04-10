@@ -1,0 +1,10 @@
+{
+  "name": "Sliding Puzzle",
+  "icon": "🧩",
+  "description": "Slide the tiles into the correct order in this classic brain teaser.",
+  "difficulties": {
+    "easy": { "size": 3 },
+    "medium": { "size": 4 },
+    "hard": { "size": 5 }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Word Search",
+  "icon": "🔠",
+  "description": "Tech trivia hidden within a jumbled grid. Find the one-word technological answers to complete the board.",
+  "difficulties": {
+    "easy": {
+      "gridSize": 8,
+      "wordsToFind": 3
+    },
+    "medium": {
+      "gridSize": 10,
+      "wordsToFind": 5
+    },
+    "hard": {
+      "gridSize": 12,
+      "wordsToFind": 8
+    }
+  }
+}
