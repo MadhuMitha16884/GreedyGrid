@@ -4,43 +4,56 @@ GreedyGrid is a modular web-based game engine that supports multiple mini-games 
 
 ## 🚀 Features
 
-🧩 Multiple games powered by a single engine
-🔌 Plugin-based architecture for adding new games
-🧠 Adaptive game logic and hint system
-🏆 Leaderboard with score tracking
+🧩 Multiple games powered by a single engine  
+🔌 Plugin-based architecture for adding new games  
+🧠 Adaptive game logic and hint system  
+🏆 Leaderboard with score tracking  
 ⚡ Fast and responsive UI
 
 ## 🏗️ Tech Stack
 
 ### Frontend
-React (Vite)
-JavaScript (ES6+)
+
+React (Vite)  
+JavaScript (ES6+)  
 CSS
+
 ### Backend
-Node.js
-Express.js
+
+Node.js  
+Express.js  
 File System (JSON-based storage)
+
 ### Deployment
-Vercel (Frontend)
+
+Vercel (Frontend)  
 Render (Backend)
 
+## 🎥 Demo Video
+
+[▶️ Watch GreedyGrid Demo](https://youtu.be/dLWdmnXQl9k)
+
 ## 🔗 Live Links
-🌐 Live App: [https://your-vercel-link.vercel.app](https://greedygrid-git-main-mekala-madhu-mithas-projects.vercel.app/)
-🔧 Backend API: [https://greedygrid-backend.onrender.com/api/scores](https://greedygrid-backend.onrender.com/api/scores)
+
+🌐 Live App: [https://greedygrid.vercel.app](https://greedygrid.vercel.app)  
+🔧 Backend API: [https://greedygrid-backend.onrender.com/api/scores](https://greedygrid-backend.onrender.com/api/scores)  
 📂 GitHub Repo: [https://github.com/MadhuMitha16884/GreedyGrid](https://github.com/MadhuMitha16884/GreedyGrid)
 
 ## ⚙️ How It Works
-Frontend sends API requests to backend
-Backend processes leaderboard data
-Scores are stored in a JSON file
+
+Frontend sends API requests to backend  
+Backend processes leaderboard data  
+Scores are stored in a JSON file  
 Data is fetched and displayed dynamically
 
 ## ⚠️ Limitations
-Uses JSON instead of database (data may reset)
+
+Uses JSON instead of database (data may reset)  
 Backend may take time to wake up (Render free tier)
 
 ## 📌 Future Improvements
-Replace JSON with MongoDB
-Add authentication system
-Improve UI/UX and animations
+
+Replace JSON with MongoDB  
+Add authentication system  
+Improve UI/UX and animations  
 Add more game plugins
